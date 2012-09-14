@@ -12,6 +12,12 @@ Hello, world!
 .. _我的首页: http://sae.sina.com.cn/?m=myapp
 .. _创建新应用: http://sae.sina.com.cn/?m=myapp&a=create
 
+.. note::
+
+   第一次"创建应用"可能需要填写"安全认证"，
+   用户名和密码为sae的安全邮箱和安全密码。
+
+
 检出svn代码
 ~~~~~~~~~~~~~
 
@@ -41,16 +47,16 @@ Hello, world!
    jaime@westeros:~/helloworld$ svn add 1/
    jaime@westeros:~/helloworld$ svn ci -m "initialize project"
 
+.. note:: 
+
+   svn的仓库地址为：http://svn.sinaapp.com/<your-application-name>，
+   用户名和密码为sae的安全邮箱和安全密码。
+
 
 访问应用
 ~~~~~~~~~~~~~~
 
 在浏览器中输入 `http://helloworld.sinaapp.com` ，就可以访问刚提交的应用了。
-
-.. note:: 
-
-   svn的仓库地址为：http://svn.sinaapp.com/<your-application-name>，
-   用户名和密码为sae的安全邮箱和安全密码。
 
 
 使用web开发框架
