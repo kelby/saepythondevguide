@@ -44,6 +44,7 @@ Hello, world!
 
 ::
 
+   jaime@westeros:~/helloworld/1$ cd ..
    jaime@westeros:~/helloworld$ svn add 1/
    jaime@westeros:~/helloworld$ svn ci -m "initialize project"
 
@@ -157,7 +158,7 @@ uliweb的安装
 
 为搭建本地开发环境，你需要安装uliweb 0.0.1a7以上版本或svn中的版本， 简单的安装可以是::
 
-    easy_install Uliweb
+    easy_install uliweb
     
 安装后在Python环境下就可以使用uliweb命令行工具了。
 
@@ -188,6 +189,7 @@ Hello, Uliweb
     import sae
     import sys, os
     
+
     path = os.path.dirname(os.path.abspath(__file__))
     project_path = os.path.join(path, 'project')
     sys.path.insert(0, project_path)
