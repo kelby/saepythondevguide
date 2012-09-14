@@ -7,9 +7,10 @@ Hello, world!
 创建新应用
 ~~~~~~~~~~~
 
-登录SAE，进入 `我的首页`_ ，点击 `创建新应用` ，创建一个新的应用helloworld。
+登录SAE，进入 `我的首页`_ ，点击 `创建新应用`_ ，创建一个新的应用helloworld。
 
-.. _我的首页: http://sae.sina.com.cn/?m=myapp&a=create
+.. _我的首页: http://sae.sina.com.cn/?m=myapp
+.. _创建新应用: http://sae.sina.com.cn/?m=myapp&a=create
 
 检出svn代码
 ~~~~~~~~~~~~~
